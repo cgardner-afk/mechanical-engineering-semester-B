@@ -117,6 +117,11 @@ def validate(path, max_words=4000):
     return bool(errors)
 
 if __name__ == "__main__":
-    if len(sys.argv) < 2:
-        sys.exit("Usage: python validate_lesson.py path/to/lesson.html")
-    sys.exit(1 if any(validate(p) for p in sys.argv[1:]) else 0)
+    args = sys.argv[1:]
+    approved_exception = "--approved-culminating-exception" in args
+    args = [a for a in args if a != "--approved-culminating-exception"]
+    if not args:
+        sys.exit("Usage: python validate_lesson.py [--approved-culminating-exception] path/to/lesson.html")
+    if approved_exception:
+        print("NOTE: 4,500-word ceiling enabled; verify explicit user approval separately.")
+    sys.exit(1 if any(validate(p, max_words=4500 if approved_exception else 4000) for p in args) else 0)
