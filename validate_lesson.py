@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Structural/word-count lint for Semester B HTML lessons. Standard library only.
 
-Usage: python validate_lesson.py mechanical_engineering_B1_1_complete_lesson.html
+Usage: python validate_lesson.py mechanical_engineering_B1_1_complete_lesson.html\n       python validate_lesson.py --approved-culminating-exception mechanical_engineering_B6_6_complete_lesson.html\nThe exception flag is for explicitly user-approved culminating design challenges only.
 Static checks cannot prove JS behavior, assessment alignment, or technical correctness.
 """
 import re
@@ -85,7 +85,7 @@ class LessonParser(HTMLParser):
             if data.strip() and data.strip() not in BOILERPLATE:
                 self.texts.append(data)
 
-def validate(path):
+def validate(path, max_words=4000):
     source = Path(path).read_text(encoding="utf-8")
     p = LessonParser()
     p.feed(source)
@@ -107,8 +107,8 @@ def validate(path):
         errors.append("Possible unresolved square-bracket placeholders.")
     words = re.findall(r"\b[\w]+(?:[’'-][\w]+)*\b", " ".join(p.texts), re.UNICODE)
     count = len(words)
-    if count < 2000 or count > 4000:
-        errors.append(f"Estimated instructional prose word count {count} outside 2,000–4,000.")
+    if count < 2000 or count > max_words:
+        errors.append(f"Estimated instructional prose word count {count} outside 2,000–{max_words:,}.")
     print(f"File: {path}\nEstimated instructional words: {count}")
     print("Note: excludes code, header/nav, controls, SVG and summary labels; manual review required.")
     for e in errors: print("ERROR:", e)
