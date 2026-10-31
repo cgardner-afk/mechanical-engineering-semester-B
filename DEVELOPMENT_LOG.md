@@ -38,3 +38,10 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Lab: three modes — lever, inclined plane, real versus ideal; worked examples, independent practice, and sequential formative quiz.
 - Template: canonical **1.0**.
 - **Development approved; publication not yet approved.** QA, actual lesson completion, and GitHub Pages verification remain pending.
+
+## B1.2 contract approval — 2026-10-30
+- **User approved** the B1.2 Rotational Motion and Angular Speed development contract.
+- Blueprint target: angular speed and conversions between rpm and rad/s; objective B-O1.
+- Unit B1 assessment families B1-05, B1-06, B1-07; cumulative final pool B-O1-P2.
+- Target: 3,000–3,400 substantive instructional words; 80–100 minutes; six or more worked examples; three-input rotating-wheel lab; seven question-first independent practice items with separately revealed solutions; approximately twelve sequential review questions.
+- Canonical template v1.0. Development authorized; completed lesson publication remains subject to separate review and approval.
