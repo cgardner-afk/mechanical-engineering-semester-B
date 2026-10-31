@@ -45,3 +45,9 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Unit B1 assessment families B1-05, B1-06, B1-07; cumulative final pool B-O1-P2.
 - Target: 3,000–3,400 substantive instructional words; 80–100 minutes; six or more worked examples; three-input rotating-wheel lab; seven question-first independent practice items with separately revealed solutions; approximately twelve sequential review questions.
 - Canonical template v1.0. Development authorized; completed lesson publication remains subject to separate review and approval.
+
+## B1.2 student-view draft — 2026-10-30
+- Draft `mechanical_engineering_B1_2_complete_lesson.html` committed for student-view review, commit `6b2676de26e66e7af8d2ea5c94ee3732e0ea1606`. **Not finalized; user review pending.**
+- Content: six worked examples, seven question-first/solution-second practice problems, rotating-wheel investigation with rpm/radius/time, and twelve-question sequential formative quiz.
+- QA performed: Node JavaScript syntax check passed; headless Chromium via Playwright `page.set_content` checked lab calculations at 120 and 240 rpm, radius/time changes, trial record/reset/clear, practice solution disclosure, quiz advancement, and readiness feedback; no page errors in these checks.
+- Approximate visible lesson word count: 3,478 by local HTML text extraction (includes headings and instructional support); approved target 3,000–3,400, so editorial word-count reconciliation remains open. Formal repository `validate_lesson.py` run, complete accessibility audit, all quiz branches, and live GitHub Pages deployment have not been independently verified.
