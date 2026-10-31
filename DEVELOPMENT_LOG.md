@@ -51,3 +51,9 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Content: six worked examples, seven question-first/solution-second practice problems, rotating-wheel investigation with rpm/radius/time, and twelve-question sequential formative quiz.
 - QA performed: Node JavaScript syntax check passed; headless Chromium via Playwright `page.set_content` checked lab calculations at 120 and 240 rpm, radius/time changes, trial record/reset/clear, practice solution disclosure, quiz advancement, and readiness feedback; no page errors in these checks.
 - Approximate visible lesson word count: 3,478 by local HTML text extraction (includes headings and instructional support); approved target 3,000–3,400, so editorial word-count reconciliation remains open. Formal repository `validate_lesson.py` run, complete accessibility audit, all quiz branches, and live GitHub Pages deployment have not been independently verified.
+
+## B1.3 development authorization — 2026-10-30
+- User approved proceeding with Lesson B1.3, **Torque, Rotational Work, and Power**, under the proposed development contract.
+- Blueprint target: calculate torque and rotational power; final assessment pool B-O1-P3 (shaft power from torque and rpm).
+- Planned scope: 3,200–3,600 words; seven worked examples; three-mode interactive torque/work/power laboratory; seven question-first independent practice items with separately revealed solutions; twelve sequential review questions.
+- Required teaching standard: explain all new notation before first use; retain B1.1/B1.2 student-facing design. **Development authorized; no lesson file published or QA completed yet.**
