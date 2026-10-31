@@ -29,3 +29,12 @@
 
 ## Future lesson handoff entries
 Record lesson ID, source and Pages links (if verified), contract approval, instructional word count, completion-time estimate, validation status, assessment coverage, student-experience audit, unresolved issues and next task.
+
+## B1.1 contract approval — 2026-10-30
+- **Approved by user:** B1.1 Simple Machines and Mechanical Advantage development contract (revised after Unit B1 QTI and final-bank v1.3 review).
+- Scope: ideal and actual mechanical advantage, force–distance trade-offs, levers, inclined planes, pulleys, screw jacks, wheel-and-axle, and efficiency.
+- Assessment references: Unit B1 families B1-01 through B1-04; final bank pool B-O1-P1. Preserve original secure assessment questions; create original practice.
+- Instructional target: **3,200–3,600 substantive words**; estimated **85–105 minutes**.
+- Lab: three modes — lever, inclined plane, real versus ideal; worked examples, independent practice, and sequential formative quiz.
+- Template: canonical **1.0**.
+- **Development approved; publication not yet approved.** QA, actual lesson completion, and GitHub Pages verification remain pending.
