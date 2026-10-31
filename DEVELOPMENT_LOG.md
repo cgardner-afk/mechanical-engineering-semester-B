@@ -57,3 +57,9 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Blueprint target: calculate torque and rotational power; final assessment pool B-O1-P3 (shaft power from torque and rpm).
 - Planned scope: 3,200–3,600 words; seven worked examples; three-mode interactive torque/work/power laboratory; seven question-first independent practice items with separately revealed solutions; twelve sequential review questions.
 - Required teaching standard: explain all new notation before first use; retain B1.1/B1.2 student-facing design. **Development authorized; no lesson file published or QA completed yet.**
+
+## B1.3 student-view draft — 2026-10-30
+- Created and fetched `mechanical_engineering_B1_3_complete_lesson.html`; commit `e2103bf9a5b77a519aba61db2f5516e0ee82f438`. User review pending; **not finalized**.
+- Core lesson text approximately 3,484 words (excluding glossary and review), seven worked examples, seven question-first practice problems, twelve sequential review questions, three lab modes.
+- QA: JavaScript syntax passed; local Chromium via Playwright `set_content` verified torque controls (60 N × 0.5 m = 30 N·m; 100 N = 50 N·m; 0° = zero), work and shaft-power mode calculations, record/clear trial, quiz check/advance, and no page errors in tested flow.
+- Outstanding: full formal HTML validator, all quiz branches, comprehensive accessibility audit, live GitHub Pages deployment verification, and final editorial/assessment coverage audit.
