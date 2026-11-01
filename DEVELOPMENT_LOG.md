@@ -63,3 +63,9 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Core lesson text approximately 3,484 words (excluding glossary and review), seven worked examples, seven question-first practice problems, twelve sequential review questions, three lab modes.
 - QA: JavaScript syntax passed; local Chromium via Playwright `set_content` verified torque controls (60 N × 0.5 m = 30 N·m; 100 N = 50 N·m; 0° = zero), work and shaft-power mode calculations, record/clear trial, quiz check/advance, and no page errors in tested flow.
 - Outstanding: full formal HTML validator, all quiz branches, comprehensive accessibility audit, live GitHub Pages deployment verification, and final editorial/assessment coverage audit.
+
+## B1.4 development contract approved — 2026-10-31
+- User explicitly approved the B1.4 **Gears, Gear Ratios, and Gear Trains** development contract.
+- Blueprint B-O1: output speed, rotation direction, and ideal torque ratios; final pools B-O1-P4 and B-O1-P5.
+- Approved scope: 3,200–3,600 instructional words, seven worked examples, seven visible-question/expandable-solution practice items, ~12 sequential quiz questions, interactive 2-/3-gear and compound gear train lab with recorded trials.
+- Mandatory: begin with canonical template; define all notation; test slider updates, gear direction, calculations, quiz, progress indicator, responsive overflow, and repository validator before sharing draft. Final publication requires separate user approval.
