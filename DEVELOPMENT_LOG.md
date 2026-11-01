@@ -69,3 +69,9 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Blueprint B-O1: output speed, rotation direction, and ideal torque ratios; final pools B-O1-P4 and B-O1-P5.
 - Approved scope: 3,200–3,600 instructional words, seven worked examples, seven visible-question/expandable-solution practice items, ~12 sequential quiz questions, interactive 2-/3-gear and compound gear train lab with recorded trials.
 - Mandatory: begin with canonical template; define all notation; test slider updates, gear direction, calculations, quiz, progress indicator, responsive overflow, and repository validator before sharing draft. Final publication requires separate user approval.
+
+## B1.4 student-view review draft — 2026-10-31
+- Created `mechanical_engineering_B1_4_complete_lesson.html`, latest commit `97016ad610a535176a92e8a9766289d5a30c1df1`; review draft, not finalized.
+- Canonical Semester B shell, ten lesson sections, approximately 3,178 main-content words by rough HTML tag stripping, seven worked examples, seven visible practice questions with separately expandable solutions, 12 sequential quiz questions, and three gear-lab modes (pair, idler, compound).
+- Verified GitHub file creation, JavaScript syntax via V8 compilation, no duplicate HTML IDs, and all statically referenced DOM IDs present.
+- **Outstanding:** Actual browser interaction tests of slider updates, SVG behavior, all lab modes, trial table, quiz feedback, reading progress, responsive layout, and accessibility; repository validator not run. Do not claim these passed. User review and final approval pending.
