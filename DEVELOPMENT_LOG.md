@@ -75,3 +75,8 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Canonical Semester B shell, ten lesson sections, approximately 3,178 main-content words by rough HTML tag stripping, seven worked examples, seven visible practice questions with separately expandable solutions, 12 sequential quiz questions, and three gear-lab modes (pair, idler, compound).
 - Verified GitHub file creation, JavaScript syntax via V8 compilation, no duplicate HTML IDs, and all statically referenced DOM IDs present.
 - **Outstanding:** Actual browser interaction tests of slider updates, SVG behavior, all lab modes, trial table, quiz feedback, reading progress, responsive layout, and accessibility; repository validator not run. Do not claim these passed. User review and final approval pending.
+
+## B1.4 review correction audit — 2026-10-31
+- Confirmed the GitHub source now contains 13 individual glossary accordion disclosures (`details`/`summary`) and a prominent five-equation quick reference at the start of the Engineering Concepts section, with symbol key and direction rule.
+- Confirmed all ten lesson sections, seven practice disclosures, 12 sequential review questions, approximately 3,475 words by rough HTML stripping, no duplicate element IDs, no statically missing DOM ID references, and JavaScript syntax compiles.
+- **Still pending:** full interactive browser QA, accessibility/mobile visual audit, repository Python validator execution, and user acceptance. B1.4 remains a review draft, not finalized; B1.5 development on hold pending review.
