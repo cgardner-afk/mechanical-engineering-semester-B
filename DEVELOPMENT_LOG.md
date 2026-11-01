@@ -85,3 +85,8 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - User approved B1.5 **Belts, Pulleys, and Mechanical Drives** plan, B-O1 blueprint target: analyze drive ratios and transmission losses; cumulative final pool B-O1-P6 belt-drive speed ratio.
 - Authorized development: 3,200–3,600 instructional words; seven worked examples; seven independent visible practice questions with separately expandable solutions; ~12 sequential review questions; interactive belt-drive lab with ideal ratio, slip/direction, and efficiency/power modes; trial recording and clearing.
 - Mandatory canonical shell and lesson styling, **prominent formula quick reference** with symbols and **individual accordion glossary entries**. Browser QA, responsive layout, validator, and user review required before finalization.
+
+## B1.5 student-view draft — 2026-10-31
+- Created `mechanical_engineering_B1_5_complete_lesson.html`, latest structural fix commit `7a7c3cb69b051201901358b8917687198f1da684`. Canonical template and all ten required sections; prominent five-formula reference; 18 accordion glossary terms; seven worked examples; seven expandable practice solutions; 12-question sequential review.
+- Interactive lab implements ideal pulley ratio, slip/direction, and efficiency/power modes with updated SVG, live calculations, recording/clearing/resetting trials. Script passed V8 syntax check; DOM references and duplicate IDs checked. A post-edit structural check detected and repaired a missing worked-section boundary before review.
+- **Not yet verified:** actual browser operation, responsive/mobile layout, repository Python validator, GitHub Pages propagation. User review/final approval outstanding. This is a review draft only.
