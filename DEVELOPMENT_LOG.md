@@ -80,3 +80,8 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - Confirmed the GitHub source now contains 13 individual glossary accordion disclosures (`details`/`summary`) and a prominent five-equation quick reference at the start of the Engineering Concepts section, with symbol key and direction rule.
 - Confirmed all ten lesson sections, seven practice disclosures, 12 sequential review questions, approximately 3,475 words by rough HTML stripping, no duplicate element IDs, no statically missing DOM ID references, and JavaScript syntax compiles.
 - **Still pending:** full interactive browser QA, accessibility/mobile visual audit, repository Python validator execution, and user acceptance. B1.4 remains a review draft, not finalized; B1.5 development on hold pending review.
+
+## B1.5 development contract approved — 2026-10-31
+- User approved B1.5 **Belts, Pulleys, and Mechanical Drives** plan, B-O1 blueprint target: analyze drive ratios and transmission losses; cumulative final pool B-O1-P6 belt-drive speed ratio.
+- Authorized development: 3,200–3,600 instructional words; seven worked examples; seven independent visible practice questions with separately expandable solutions; ~12 sequential review questions; interactive belt-drive lab with ideal ratio, slip/direction, and efficiency/power modes; trial recording and clearing.
+- Mandatory canonical shell and lesson styling, **prominent formula quick reference** with symbols and **individual accordion glossary entries**. Browser QA, responsive layout, validator, and user review required before finalization.
