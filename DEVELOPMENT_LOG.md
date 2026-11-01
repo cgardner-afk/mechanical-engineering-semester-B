@@ -141,3 +141,10 @@ Record lesson ID, source and Pages links (if verified), contract approval, instr
 - 3,942 HTML-stripped main-content words (includes glossary, interface and quiz text); ten sections, ten formulas, seven worked examples, seven practice problems with 33 numbered solution steps, 22 glossary entries, 12 review questions.
 - Four-phase hydraulic design studio with four numerical constraints, saved candidate comparison and recommendation worksheet. Educational same-elevation constant-efficiency model; not real equipment safety verification.
 - Static JS parse passed, no duplicate HTML IDs or missing literal DOM references. Pending: engineering edge cases, browser/mobile/keyboard/accessibility checks, repository validator, Pages confirmation, assessment item mapping and user review. Status: REVIEW DRAFT.
+
+## B3.1 — Flow Rate and Conservation of Mass (2026-11-01)
+- User approved B3.1 contract: 3,000–3,600 words, 7 worked examples, 7 practice solutions, 12 sequential review questions, flow-rate interactive lab, highlighted vocabulary and individual glossary entries.
+- Created `mechanical_engineering_B3_1_complete_lesson.html`; final correction commit `3ecb119623e28ff3574d1f06e6b94179c6935a63`, exact content re-fetched and verified.
+- HTML-stripped main section count approximately 3,582 words, including instructional text, worked steps, lab prompts, practice solutions, glossary, and quiz (not strictly filtered). Ten canonical sections, nine formula reference lines, seven worked examples, seven practice problems with numbered solution steps, 20 glossary entries, 12-question sequential quiz, highlighted vocabulary.
+- Lab: full-pipe area/velocity, density, duration and delivery target; real-time Q, mass flow, delivered volume, delivery margin; save/clear trials and compare feasible candidates. Simplified model explicitly excludes pressure losses and pump capability.
+- Static JavaScript syntax, duplicate-ID and literal DOM reference checks passed. Not yet verified: actual browser/mobile/keyboard/accessibility operation, independent numerical edge cases, repository validator, Pages propagation, assessment item-level coverage. Status: REVIEW DRAFT.
